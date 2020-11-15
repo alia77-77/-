@@ -12,7 +12,7 @@ class Person {
 
     public Person(String[] str, Department div) throws IOException {
         if (str.length != 6 || div == null)
-            throw new IOException("Введенных данных не достаточно, чтобы создать объект класса.");
+            throw new IOException("Введенных данных недостаточно для создания объект класса.");
 
         id = str[0];
         name = str[1];
